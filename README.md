@@ -10,13 +10,14 @@ Using Hadoop compute the number of voters in each voting district in Russia and 
 #### Eclipse IDE
 
 ## Steps to open Russiandata jar in IDE
+#### Unzip RussianElection folder
 #### Open IDE like Eclipse and import the project from russiandata.jar
 
 ## Steps to run Russiandata jar
 #### 1. open cmd and type below commands
 
-	hdfs namenode -format    #####format namenode
-	cd d:                    ##### Hadoop Home directory 
+	hdfs namenode -format		format namenode
+	cd d:                   	Hadoop Home directory 
 	cd sbin
 	start-all.cmd
 	jps
@@ -24,7 +25,7 @@ Using Hadoop compute the number of voters in each voting district in Russia and 
 	cd bin
 
 #### 2.run the below commands in hadoop/bin path
-	hadoop fs -mkdir /input  ####Creating folders####
+	hadoop fs -mkdir /input  		To Create folders
 	hadoop fs -mkdir /output
 
 #### 3.Loading file on hadoop
